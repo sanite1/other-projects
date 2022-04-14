@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        h1 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+        }
+        body > h1:nth-of-type(2) {
+            color: blue;
+        }
+        body > h1::first-line {
+            color: red;
+        }
+        body > h1::first-letter {
+            font-size:  60px;
+        }
+        body > h1::selection {
+            color: yellow;
+            background-color: black;
+        }
+        body > h1::before {
+            content: "'";
+        }
+        body > h1::after {
+            content: "'";
+        }
+        body {
+            background-image: url("Copace/images/background1.png");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .div1 {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to right, black, white);
+            z-index: 10;
+        }
+        .div2 {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(0deg, green, yellow);
+            z-index: 11;
+            margin-top: 20px;
+        }
+        .div3 {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(180deg, blue, pink);
+            z-index: 10;
+            margin-top: 20px;
+        }
+        .div4 {
+            width: 100%;
+            height: 400px;
+            background: radial-gradient(red, purple); /* also circle at top-right*/
+            z-index: 10;
+            margin-top: 20px;
+        }
+        .div5 {
+            width: 100%;
+            height: 100px;
+            background: radial-gradient(circle closest-side, skyblue, black);  /* Also closest-corner, farthest-corner, closest-side, farthest-side,*/
+            z-index: 10;
+            margin-top: 20px;
+        }
+        
+        ul {
+            padding: 0;
+            list-style: none;
+            background: #f2f2f2;
+        }
+        ul li {
+            display: inline-block;
+            position: relative;
+            line-height: 21px;
+            text-align: left;
+        }
+        ul li a {
+            display: block;
+            padding: 8px 25px;
+            color: #333;
+            text-decoration: none;
+        }
+        ul li a:hover {
+            color: #fff;
+            background: #939393;
+        }
+        ul li ul.dropdown {
+            min-width: 100%; /* Set width of the dropdown */
+            background: #f2f2f2;
+            display: none;
+            position: absolute;
+            z-index: 999;
+            left: 0;
+        }
+        ul li:hover ul.dropdown {
+            display: block; /* Display the dropdown */
+        }
+        ul li ul.dropdown li {
+            display: block;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins </h1>
+    <h1>My name is Sanni CollinsMy name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins My name is Sanni Collins </h1>
+    <h1>My name is Sanni Collins</h1>
+    <h1>My name is Sanni Collins</h1>
+    <h1>My name is Sanni Collins</h1>
+    
+    <div class="div1">
+        
+    </div>
+
+    <div class="div2">
+        
+    </div>
+
+    <div class="div3">
+        
+    </div>
+    <div class="div4">
+        
+    </div>
+    <div class="div5">
+        
+    </div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+            <a href="#">Products ▾</a>
+            <ul class="dropdown">
+                <li><a href="#">Laptops</a></li>
+                <li><a href="#">Monitors</a></li>
+                <li><a href="#">Printers</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>                  

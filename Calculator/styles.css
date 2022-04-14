@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://i.imgur.com/mSPU63U.png");
+    text-align: center;
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+}
+.calc-wrapper {
+    width: 300px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-radius: 5px;
+    margin: 15% 40%;
+    /* position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50vh); */
+    box-shadow: 0 1px 6px 0 grey;
+}
+.text-area {
+    width: 250px;
+    height: 50px;
+    border-top-width: 5px;
+    border-color: rgb(59, 59, 59);
+    outline: none;
+    font-size: 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.text-area:hover {
+    cursor: not-allowed;
+}
+.num-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.num-item {
+    height: 40px;
+    padding-top: 5px;
+    padding: 5px;
+}
+.op-item {
+    height: 40px;
+    padding-top: 5px;
+    padding: 5px;
+}
+.num-item:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+.op-item:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+.num {
+    margin-top: 10px;
+}
+.clicked {
+    background-color: grey;
+}

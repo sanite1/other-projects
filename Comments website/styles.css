@@ -1,0 +1,46 @@
+body {
+  box-sizing: border-box;
+  padding: 7%;
+  color: #F0F8FF;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+
+.profile-pic {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.comments {
+  padding: 20px;
+  border-radius: 30px;
+  border: solid 10px;
+  border-color: white;
+}
+.com1 {
+  background-color: #008B8B;
+}
+.com2 {
+  background-color: #9932CC;
+}
+.com3 {
+  background-color: #FF8C00;
+}
+.com4 {
+  background-color: #A9A9A9;
+}
+.com5 {
+  background-color: #FF8C00;
+}
+.comment-icon {
+  position: absolute;
+  float: right;
+
+}

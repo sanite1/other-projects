@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/* General Settings */
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: #00BFFF;
+}
+.fa-youtube {
+  color: red;
+}
+.fa-instagram {
+  color:  #CC0066;
+}
+.facebook {
+  border-top: solid 5px;
+  padding: 10px;
+  border-radius: 12px;
+  border-top-color: blue;
+
+}
+.twitter {
+  border-top: solid 5px;
+  padding: 10px;
+  border-radius: 12px;
+  border-top-color: #00BFFF;
+
+}
+.youtube {
+  border-top: solid 5px;
+  padding: 10px;
+  border-radius: 12px;
+  border-top-color:  red;
+
+}
+.instagram {
+  border-top: solid 5px;
+  padding: 10px;
+  border-radius: 12px;
+  border-top-color: #CC0066;
+
+}
+.container {
+  margin: 20px auto;
+}
+.column {
+  background: linear-gradient(to bottom, white, #D3D3D3);
+}
+
+/* Header and dark mode Section */
+.dark-sec {
+  float: left;
+  text-align: right;
+  padding: 25px;
+}
+.header {
+  text-align: left;
+}
+.dark, .fa-power-off, .total {
+  color: grey;
+}
+.button {
+  border: 0;
+  background-color: inherit;
+}
+
+
+/* Section 1 */
+.followers {
+  letter-spacing: 4px;
+  color: grey;
+}
+.username {
+  color: grey;
+}
+
+
+
+
+/* Overview Section */
+.overview-sec {
+  text-align: left;
+  margin: 4px 4px 10px;
+}
+.icon {
+  float: right;
+  margin-top: 3px;
+}
+.overview-num {
+  display: inline;
+}
+.overview-stat {
+  float: right;
+  margin-top: 5px;
+}
+.overview {
+  display: inline;
+  color: grey;
+}
+
+
+/* Dark mode settings */
+.dark-background {
+  background-color: #1D202B;
+}
+.btn-active {
+  color: #35BEAD;
+}
+.column2 {
+  background: #262d43;
+}
+.dm-text {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  body{
+    font-size: 16px;
+  }
+  .column {
+    margin-bottom: 20px;
+  }
+  .dark-sec {
+    border-top: solid 3px;
+    border-top-color: grey;
+  }
+
+}

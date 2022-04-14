@@ -1,0 +1,83 @@
+body {
+  background-color: #EAF6F6;
+  color: #EAF6F6;
+}
+
+.general-div {
+
+  margin: 100px auto 100px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.general-div div {
+  display: inline-block;
+  height: 100%;
+}
+.general-div div:nth-of-type(1) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.general-div div:nth-of-type(2) {
+  border-radius: 0;
+}
+.general-div div:nth-of-type(3) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+a {
+  background-size:contain;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+.learn-btn {
+  border-radius: 30px;
+  border: 0;
+  width: 130px;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  text-align: center;
+}
+.learn1 {
+  color: #D2691E;
+}
+.learn2 {
+  color: #008B8B;
+}
+.learn3 {
+  color: #2F4F4F;
+}
+.sedans {
+  padding: 30px;
+  background-color: #D2691E;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+.suvs {
+  padding: 30px;
+  background-color: #008B8B;
+  position: relative;
+  border-radius: 20px;
+}
+.luxury {
+  padding: 30px;
+  background-color: #2F4F4F;
+  position: relative;
+  border-radius: 20px;
+}
+img {
+  width: 80px;
+}
+/* .btn1:hover {
+  background-color: lightgray;
+}
+.btn2:hover {
+  background-color: lightgray;
+}
+.btn3:hover {
+  background-color: lightgray;
+} */

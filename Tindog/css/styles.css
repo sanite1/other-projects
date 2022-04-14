@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+/*  */
+.container-fluid {
+  padding: 7% 15%;
+}
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-br {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+
+}
+.nav-link:hover {
+  font-size: 1.2rem;
+  border: 2px;
+  border-color: #EF8172;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+.intro {
+  line-height: 1.5;
+}
+/* Download Buttons */
+.downloadbtn {
+  margin: 5% 3% 5% 0;
+
+}
+/* Title image */
+.tit-img {
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+
+/* Second Section */
+#features{
+
+  position: relative;
+  z-index: 1; /* COMBAK: Not really necessary */
+}
+.feat-row {
+  padding: 5%;
+}
+.sec2-header {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.sec2-par {
+  color: #8F8F8F;
+  padding: 0 30px 30px 30px;
+}
+.feat-icon {
+  color: #EF8172;
+}
+.feat-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #EF8172; /* COMBAK: overrides the .colored-section because of heirachy */
+  color: white;
+}
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+  background-color: #EF8172;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+.price-tags {
+  padding: 3% 2%;
+}
+.price-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.ending-message {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+#footer {
+  padding: 3%;
+}
+.con-footer {
+  margin-bottom: 30px;
+}
+.con-item {
+  margin: 0 10px;
+  margin-top: 20px
+}
+.contact {
+  color: black;
+}
+.twitter:hover {
+  color: blue;
+}
+.facebook:hover {
+  color: blue;
+}
+.instagram:hover {
+  color: #FF4C68;
+}
+.mail:hover {
+  color: red;
+}
+.copyright {
+  color: grey;
+  font-family: "Ubuntu", sans-serif;
+}
+/* Media query for mobile design */
+@media (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+  .tit-img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .testimonial-text {
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .price-header {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
